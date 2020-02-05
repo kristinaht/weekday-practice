@@ -26,4 +26,9 @@ describe ('Date', () => {
     expect(date.year).toEqual(2020);
     console.log(date);
   });
+
+  test('should determine whether inputs are not valid', () => {
+    var notValid = new Date(35,40,2020);
+    expect(notValid.checkType()).toEqual("date is not valid");
+  })
 });

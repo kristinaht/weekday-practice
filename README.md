@@ -22,9 +22,9 @@ _{Leave nothing to chance! You want it to be easy for potential users, employers
 
 | Behavior   |      Input      |  Output |
 |------------|:---------------:|--------:|
-| User inputs the date in a correct format needed to create Weekday object|"1-1-2020" | true |
-| | | |
-| | | |
+| New date object is created with three properties | 1, 1, 2020 |1, 1, 2020| 
+| When craeated, the new weekday object equals to an empty array| var weekday = new Weekday()| weekday.date === []
+|addDate prototype adds new date to weekday object |weekday.addDate(date) |[date] |
 | | | |
 
 ## Known Bugs
