@@ -1,5 +1,5 @@
-export function Weekday (date1) {
-  this.date1 = [];
+export function Weekday () {
+  // this.date1 = [];
 } 
 
 Weekday.prototype.addDate = function(date) {
