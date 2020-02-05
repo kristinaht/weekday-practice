@@ -8,6 +8,14 @@ describe ('Weekday', () => {
     var weekday = new Weekday();
     expect(weekday.date1).toEqual([]);
   });
+  
+  test('should correctly add a new date to weekday object', () => {
+    var weekday = new Weekday();
+    var date = [1,1,1999];
+    weekday.addDate(date);
+    expect(weekday.date1).toEqual([date]);
+    console.log(weekday.date1)
+  });
 });
 
 describe ('Date', () => {
@@ -18,5 +26,4 @@ describe ('Date', () => {
     expect(date.year).toEqual(2020);
     console.log(date);
   });
-
 });
