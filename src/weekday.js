@@ -1,3 +1,3 @@
-export function Weekday () {
-  
+export function Weekday (date1) {
+  this.date1 = date1;
 }
