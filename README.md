@@ -22,7 +22,7 @@ _{Leave nothing to chance! You want it to be easy for potential users, employers
 
 | Behavior   |      Input      |  Output |
 |------------|:---------------:|--------:|
-| | | |
+| User inputs the date in a correct format needed to create Weekday object|"1-1-2020" | true |
 | | | |
 | | | |
 | | | |
