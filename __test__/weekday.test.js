@@ -12,10 +12,11 @@ import { exportAllDeclaration } from '@babel/types';
 
 describe ('Date', () => {
   test('should correctly create a date object with three properties', () => {
-    var date = new Date(1-1-2020)
+    var date = new Date(1, 1, 2020)
     expect(date.day).toEqual(1);
     expect(date.month).toEqual(1);
     expect(date.year).toEqual(2020);
+    console.log(date);
   });
 
 });

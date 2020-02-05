@@ -7,7 +7,7 @@ Weekday.prototype.addDate = function(date) {
 }
 
 export function Date(day, month, year) {
-  // this.day = day;
-  // this.month = month;
-  // this.year = year;
+  this.day = day;
+  this.month = month;
+  this.year = year;
 }
