@@ -5,16 +5,17 @@ export function Weekday () {
 } 
 
 Weekday.prototype.addDate = function(date) {
-  this.date1.push(date);
+  // this.date1.push(date);
+  this.date1 = date;
 }
 
-export function userDate(day, month, year) {
+export function UserDate(day, month, year) {
   this.day = day;
   this.month = month;
   this.year = year;
 }
 
-userDate.prototype.checkType = function () {
+UserDate.prototype.checkType = function () {
   if(this.day < 32 && this.month < 13 &&  this.year > 1000) {
     true;
   }else {
@@ -22,7 +23,8 @@ userDate.prototype.checkType = function () {
   }
 }
 
- var weekday =new Weekday();
+var weekday =new Weekday();
+
 var findDate = new Date ((weekday.date1).toString());
 var findWeekday = findDate.getDay();
 

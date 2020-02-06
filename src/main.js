@@ -3,7 +3,7 @@ import 'bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './styles.css';
 import { Weekday } from './weekday';
-import { userDate } from './weekday';
+import { UserDate } from './weekday';
 import { convertDayName} from './weekday';
 
 $(document).ready(function(){
@@ -13,8 +13,9 @@ $(document).ready(function(){
     var inputtedMonth = $("input#month").val();
     var inputtedYear = $("input#year").val();
 
-    var inputtedUserDate = new UserDate(inputtedDay, inputtedMonth, inputtedYear);
+    var inputtedUserDate = new UserDate (inputtedDay, inputtedMonth, inputtedYear);
     console.log(inputtedUserDate);
+
 
 
 
