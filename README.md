@@ -28,6 +28,7 @@ _{Leave nothing to chance! You want it to be easy for potential users, employers
 |checkType prototype will determine whether inputs are valid or not valid | 35,40,2020 | "date is not valid" |
 |Program takes a date and converts it to string| [1,1,2019] | "1,1, 2019" |
 |Program takes the date in form of a string and returns a weekday in a form of a number" | "1,1, 2019" | 2 |
+|Program converts weekday number to weekday name | 2 | Tuesday
 ## Known Bugs
 
 _{Are there issues that have not yet been resolved that you want to let users know you know?  Outline any issues that would impact use of your application.  Share any workarounds that are in place. }_
